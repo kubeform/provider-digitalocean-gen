@@ -38,12 +38,13 @@ func main() {
 	}
 
 	opts := &util.GeneratorOptions{
-		ProviderName:       "digitalocean",
-		ProviderData:       digitalocean.Provider(),
-		ProviderImportPath: "github.com/digitalocean/terraform-provider-digitalocean/digitalocean",
-		Version:            "v1alpha1",
-		APIsPath:           apisPath,
-		ControllerPath:     controllerPath,
+		ProviderName:         "digitalocean",
+		ProviderNameOriginal: "digitalocean",
+		ProviderData:         digitalocean.Provider(),
+		ProviderImportPath:   "github.com/digitalocean/terraform-provider-digitalocean/digitalocean",
+		Version:              "v1alpha1",
+		APIsPath:             apisPath,
+		ControllerPath:       controllerPath,
 	}
 	err := util.Generate(opts)
 	if err != nil {
