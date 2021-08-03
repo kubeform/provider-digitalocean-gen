@@ -3,7 +3,7 @@
 
 # Kubeform DigitalOcean Provider Code Generator
 
-Generates code for Kubeform DigitalOcean Provider
+Kubeform code generator for [Terraform DigitalOcean Provider](https://github.com/digitalocean/terraform-provider-digitalocean)
 
 ## Installation
 
