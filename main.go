@@ -43,6 +43,7 @@ func main() {
 		ProviderData:         digitalocean.Provider(),
 		ProviderImportPath:   "github.com/digitalocean/terraform-provider-digitalocean/digitalocean",
 		ProviderConfig:       "digitalocean/digitalocean",
+		TfPluginVersion:      "v2.8.0",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
